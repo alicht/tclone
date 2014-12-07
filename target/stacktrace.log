@@ -1,0 +1,366 @@
+2014-12-06 19:29:46,154 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:50)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassGetPropertySite.getProperty(PogoMetaClassGetPropertySite.java:50)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:227)
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1081)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at groovy.lang.Closure.call(Closure.java:417)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsBootstrapClass.callInit(DefaultGrailsBootstrapClass.java:60)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.executeGrailsBootstraps(GrailsConfigUtils.java:78)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener.initWebApplicationContext(GrailsContextLoaderListener.java:110)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4992)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5490)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1565)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-12-06 19:29:46,165 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-12-06 19:29:46,167 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-12-06 19:29:46,168 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-12-06 19:29:46,170 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-12-06 19:29:46,171 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-12-06 19:29:46,210 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-12-06 19:29:46,211 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-12-06 19:29:46,213 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-12-06 19:29:46,214 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-12-06 19:29:46,221 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.access.BootstrapException: Error executing bootstraps; nested exception is groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener.initWebApplicationContext(GrailsContextLoaderListener.java:126)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4992)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5490)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1565)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	... 4 more
+2014-12-06 19:29:46,222 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-12-06 19:29:46,223 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.access.BootstrapException: Error executing bootstraps; nested exception is groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	... 4 more
+2014-12-06 19:38:10,438 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:50)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassGetPropertySite.getProperty(PogoMetaClassGetPropertySite.java:50)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:231)
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1081)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at groovy.lang.Closure.call(Closure.java:417)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsBootstrapClass.callInit(DefaultGrailsBootstrapClass.java:60)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.executeGrailsBootstraps(GrailsConfigUtils.java:78)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener.initWebApplicationContext(GrailsContextLoaderListener.java:110)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4992)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5490)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1565)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-12-06 19:38:10,448 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-12-06 19:38:10,450 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-12-06 19:38:10,451 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-12-06 19:38:10,453 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-12-06 19:38:10,453 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-12-06 19:38:10,484 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-12-06 19:38:10,485 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-12-06 19:38:10,488 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-12-06 19:38:10,489 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-12-06 19:38:10,497 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.access.BootstrapException: Error executing bootstraps; nested exception is groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener.initWebApplicationContext(GrailsContextLoaderListener.java:126)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4992)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5490)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1565)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	... 4 more
+2014-12-06 19:38:10,499 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-12-06 19:38:10,500 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.access.BootstrapException: Error executing bootstraps; nested exception is groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: groovy.lang.MissingPropertyException: No such property: save for class: org.grails.twitter.auth.Authority
+Possible solutions: all
+	at BootStrap$_closure1.doCall(BootStrap.groovy:8)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	... 4 more
