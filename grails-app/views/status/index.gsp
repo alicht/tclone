@@ -2,6 +2,7 @@
 <head>
 	<meta name="layout" content="main"/>
 	<title>What are you up to?</title>
+	<g:javascript library="prototype"/>
 <head>
 <body>
 
