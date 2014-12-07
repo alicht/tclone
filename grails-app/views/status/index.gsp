@@ -6,6 +6,13 @@
 <head>
 <body>
 
+	<h1> Search for people to follow</h1>
+	<div class = "searchForm">
+		<g:form controller="searchable">
+			<g:textField name = "q" value=""/>
+		</g:form>
+	</div>
+
 	<h1>What are you up to?</h1>
 	<div class= "updateStatusForm">
 	  <g:formRemote onSuccess="document.UpdateStatusForm.message.value=''" url="[action: 'updateStatus']"
