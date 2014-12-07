@@ -7,6 +7,11 @@ class StatusController {
     def index() { }
 
     def updateStatus = {
-    	render 'it worked!'
+    	def status = new Status(message: params.message)
+    	status.author = lookupPerson()
+    	status.save()
+    	def messages = currentUserTimeline()
+    	render template: 'messages', collection: messages, var: 'message'
+
     }
 }
