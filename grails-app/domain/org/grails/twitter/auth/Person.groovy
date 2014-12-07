@@ -11,6 +11,8 @@ class Person {
 	boolean accountExpired
 	boolean accountLocked
 	boolean passwordExpired
+	static hasMany = [followed:Person]
+	static searchable = [only: 'realName']
 
 	static transients = ['springSecurityService']
 

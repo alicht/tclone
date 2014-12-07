@@ -8,8 +8,8 @@ class StatusController {
     // will be injected into controller before the code executes
 
     def index() { 
-    	def messages = currentUserTimeline()
-    	[messages: messages]
+    	def msgs = currentUserTimeline()
+    	[messages: msgs]
     }
 
     def updateStatus = {
