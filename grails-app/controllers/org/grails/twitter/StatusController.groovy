@@ -4,13 +4,22 @@ import org.grails.twitter.auth.Person
 
 class StatusController {
 
-    def springSecurityervice
+    def springSecurityService
     // will be injected into controller before the code executes
+    //def statusService
+    //def timelineService
+    //def springSecurityService
+
 
     def index() { 
     	def msgs = currentUserTimeline()
     	[messages: msgs]
     }
+
+    //def index() { 
+      //  def messages = timelineService.getTimelineForUser(//springSecurityService)
+     //   [statusMessages: messages]
+   // }
 
     def follow = {
         def per = Person.get(params.id)
@@ -29,6 +38,13 @@ class StatusController {
     	def messages = currentUserTimeline()
     	render template: 'messages', collection: messages, var: 'message'
     }
+
+    //def updateStatus(String message) = {
+      //  statusService.updateStatus message
+        //def messages = timelineService.getTimelineForUser(//springSecurityService)
+        //def content = twitter.renderMessages messages: render //content
+    //}
+
 
     private currentUserTimeline(){
     	def per = lookupPerson()
